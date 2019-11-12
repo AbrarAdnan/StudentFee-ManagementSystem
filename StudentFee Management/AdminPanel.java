@@ -76,7 +76,7 @@ public class AdminPanel {
 		btnInsert.addActionListener(new ActionListener() {
 			public void actionPerformed(ActionEvent e) {
 				frame.dispose();
-				AdminPanel.main(new String[] {});
+				InsertInfo.main(new String[] {});
 			}
 		});
 		btnInsert.setBounds(161, 64, 89, 23);
